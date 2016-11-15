@@ -1,0 +1,8 @@
+<h2><%= @task.title %></h2>
+<p> Description: <%= @task.description %></p>
+<p> Priorité : <%= @task.priority %></p>
+<p> Dead line : <%= @task.dead_line %></p>
+<%= link_to "Retour à la liste des tâches", tasks_path %>
+
+
+<!-- .strftime("%d/%m/%Y") -->
